@@ -1,0 +1,31 @@
+.alert-md .alert-wrapper {
+    border-radius: 13px;
+    max-width: 280px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 0 16px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 16px 20px rgba(0, 0, 0, 0.4);
+}
+
+.alert-md .alert-head{
+    text-align: center;    
+    padding: 12px 16px 7px;
+}
+.alert-md .alert-title{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.alert-md .alert-radio-label{
+    white-space: normal;
+    
+}
+.alert-md .alert-sub-title{
+	Letter-spacing:0.1em;
+	font-size:11px;
+	color:#4e5155;
+	font-weight:500;
+}
+.toolbar-md-primary .toolbar-background-md{
+    background: #cc3838;
+}

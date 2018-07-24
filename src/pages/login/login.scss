@@ -1,0 +1,78 @@
+page-login {
+
+	.loginContent{
+		text-align: center;
+		width: 100%;		
+		background-image: url('../assets/imgs/services1.jpg');
+		background-color: #929191;		
+		background-blend-mode: soft-light;
+		color:#4e5155;
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		flex-direction: column;
+		background-size: cover;
+		background-position: center;
+
+		ion-label{
+			font-size:11px;
+					
+		}
+		h1{			
+  			//font-family: GillSans, Calibri, Trebuchet, sans-serif;	
+  			font:menu;
+  			font-size:19px;
+  			Letter-spacing:0.1em;
+		}
+		span{
+			font-weight:600;
+			Letter-spacing:0.1em;
+		}
+		p{
+			Letter-spacing:0.1em;
+			font-size:10px;
+			color:blank;
+		}
+		button{
+			background-color: #cc3838;
+		}
+
+		ion-list{
+			margin-top:5px;
+
+		}
+		ion-item{
+			//margin-top:10px;
+			//border-radius:10px;
+		}
+		ion-icon{
+			color:#cc3838;
+		}
+		.contentInputs{
+			background-color: white;
+		    margin-top: 30px;
+		    height: 60%;
+		    padding-top: 15px;
+		    border-radius: 10px;
+		    opacity: 0.8;
+		}
+		.avatar {			
+		    vertical-align: middle;
+		    width: 100px;
+		    height: 100px;
+		    border-radius: 50%;
+		}		
+	}
+
+}
+.loader1{
+	.loading-wrapper{
+		height: 60px;
+	}
+	p{
+		Letter-spacing:0.1em;
+		font-size:10px;
+		color:#4e5155;
+		font-weight:500;
+	}
+}
